@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Ganerator</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>QR Code Ganeretor</h1>
+        <form>
+            <input type="text" id="input" placeholder="type here url / text">
+            <button id="generateBtn">Ganerate</button>
+        </form>
+        <p id="error"></p>
+        <div style="text-align: center;">
+            <div id="qr"></div>
+        </div>
+        <button id="downloadBtn">Download</button>
+    </div>
+    
+    <!-- Add QRCode library -->
+    <script src="js/qrcode.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

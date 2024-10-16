@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left,#2c1b59,#0222a4);
+}
+.container{
+    text-align: center;
+    color: white;
+    width: 400px;
+    background-color:#0D92F4;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container h1{
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container input{
+    width: 80%;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.container button{
+    padding: 10px 20px ;
+    background-color: #024CAA;
+    color: white;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#qr{
+    display: inline-block;
+    margin-top: 20px;
+}
+#downloadBtn{
+    display: none;
+    margin-top: 20px;
+}
